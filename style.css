@@ -89,3 +89,25 @@ main { padding-top: 24px; padding-bottom: 48px; }
 
 .site-footer { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: 0.82rem; }
 .site-footer p { margin: 4px 0; }
+
+/* 추천 글(상품 여러 개 비교) */
+.lead { font-size: 1.1rem; color: var(--muted); margin: 0 0 20px; }
+.deal h3 { font-size: 1rem; margin: 20px 0 6px; }
+.compare h2 { border-top: 0; padding-top: 0; }
+.table-wrap { overflow-x: auto; }
+.compare table, .specs { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.compare th, .compare td, .specs th, .specs td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.compare th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+.compare td.num { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 700; }
+.compare a { color: var(--accent); white-space: nowrap; }
+.product { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin: 12px 0 28px; }
+.p-name { font-weight: 700; margin: 0 0 6px; }
+.tagline { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 700; padding: 4px 12px; border-radius: 999px; margin: 0 0 12px; font-size: 0.92rem; }
+.specs { margin-bottom: 12px; }
+.specs th { width: 34%; color: var(--muted); font-weight: 600; }
+.proscons { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.proscons h4 { margin: 0 0 4px; font-size: 0.92rem; color: var(--muted); }
+.proscons ul { margin: 0; padding-left: 18px; }
+.p-price { margin: 14px 0 10px; }
+.p-price strong { font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.p-price span { color: var(--muted); font-size: 0.85rem; }
